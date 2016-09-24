@@ -1,1 +1,3 @@
-gem 'snipmate_to_yas', :git => 'https://github.com/cartolari/snipmate_to_yas'
+source 'https://rubygems.org'
+
+gem 'snipmate_to_yas', '>=0.1.0'
