@@ -1,0 +1,17 @@
+GIT
+  remote: https://github.com/cartolari/snipmate_to_yas
+  revision: c0952b88e7711e744f891f523bccc2f61c177f6e
+  specs:
+    snipmate_to_yas (0.1.0)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  snipmate_to_yas!
+
+BUNDLED WITH
+   1.13.1
