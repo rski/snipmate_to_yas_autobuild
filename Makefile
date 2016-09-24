@@ -12,7 +12,7 @@ convert:
 	mkdir -p snipmate_to_yas_snippets
 	for f in `find vim-snippets/snippets -name '*.snippets' -type f`; do \
 		mode_name=`basename $$f .snippets`; \
-		bundle exec snipmate_to_yas $$f snipmate_to_yas_snippets; \
+		snipmate_to_yas $$f snipmate_to_yas_snippets; \
 	done
 
 
