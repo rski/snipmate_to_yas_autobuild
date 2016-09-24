@@ -4,8 +4,9 @@ all: clone convert push
 
 
 push:
-	cd snipmate_to_yas_snippets
-	git commit -am "Update snippets"
+	cd snipmate_to_yas_snippets; \
+	git add *; \
+	git commit -m "Update snippets `date`";\
 	git push
 
 
