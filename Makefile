@@ -1,4 +1,4 @@
-.PHONY: all convert push
+.PHONY: all convert push update
 
 all: clone convert push
 
@@ -21,6 +21,10 @@ convert:
 clone:
 	git clone https://github.com/honza/vim-snippets
 
+
+update: 
+	cd vim-snippets; \
+	git pull
 
 clean:
 	rm -rf vim-snippets
